@@ -1,5 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
+// with shallow we test only the component and not his children
+// mock permet de tester son environnement sans lancer le fetch par exemple
 import { Button, Alert } from 'react-native';
 
 import App from './App';

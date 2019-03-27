@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Button, Alert } from 'react-native';
+import { StyleSheet, View, Button, Alert, Text } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -23,6 +23,7 @@ export default class App extends React.Component {
     const { button } = this.state;
     return (
       <View style={styles.container}>
+        <Text>Hello !</Text>
         <Button onPress={this.handlePress} title={button} />
       </View>
     );
